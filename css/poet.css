@@ -21,10 +21,26 @@ body {
 	background-color: transparent;
 }
 
-.container .welcome {
-	font-family: 'KaushanScript-Regular';
+.container .welcome{
 	font-size: 30px;
+	font-family: 'KaushanScript-Regular';
 	padding-top: 15%;
+	text-align: center;
+}
+
+.container .welcome h1{
+	font-size: 2.625em;
+	line-height: 1.3;
+	margin: 0;
+	color: #655847;
+	font-weight: 300;
+}
+
+.container .welcome span{
+	display: block;
+	font-size: 100%;
+	color: #89867e;
+	padding: 0 0 0.6em 0.1em;
 }
 
 .read {
@@ -138,3 +154,52 @@ body {
 	-moz-transform: rotate(0deg) translateX(50%);
 	transform: rotate(0deg) translateX(50%);
 }
+
+/* Social */
+.link ul {
+    overflow: auto;
+    padding-left: 50px;
+}
+ 
+.link ul li {
+    list-style-type: none;
+}
+ 
+.link ul li a i {
+    background: transparent;
+    color: #fff;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    font-size: 25px;
+    text-align: center;
+    margin-right: 10px;
+    padding-top: 4%;
+    margin-top: 5px;
+    transition: all 0.2s ease-in-out;
+}
+.link .fa-facebook {
+    background: transparent;
+    border: 1px solid #fff;
+    /*background: #3b5998;*/
+} 
+.link .fa-linkedin {
+    background: transparent;
+    border: 1px solid #fff;
+    /*background:#007bb6;*/
+}
+.link .fa-twitter {
+    background: transparent;
+    border: 1px solid #fff;
+    /*background:#00aced;*/
+}
+.link .fa-google-plus {
+    background: transparent;
+    border: 1px solid #fff;
+    /*background:#dd4b39;*/
+}
+.link ul li a i:hover {
+    opacity: .7;
+    border: 2px solid #fff;
+}
+
