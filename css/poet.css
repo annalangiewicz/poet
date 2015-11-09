@@ -50,6 +50,28 @@ body {
 	padding: 10px;
 }
 
+/* Poem */
+.poem{
+	font-size: 20px;
+	font-family: 'Lato', Calibri, Arial, sans-serif;
+}
+
+.poem h1{
+	margin-top: 0;
+	color: #655847;
+}
+
+.poem hr{
+	border-top: 1px solid #655847;
+}
+
+.poem p{
+	margin: 0;
+}
+
+.sign{
+	font-size: 16px;
+}
 /* Effect 12: circle */
 .cl-effect-12 a::before,
 .cl-effect-12 a::after {
