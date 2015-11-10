@@ -74,6 +74,24 @@ body {
 .sign{
 	font-size: 16px;
 }
+
+.author img{
+	height: 200px;
+	width: 200px;
+	float: right;
+	border: 5px solid #fff;
+	transform: rotate(10deg);
+}
+
+.about{
+	padding-top: 50%;
+	font-size: 22px;
+}
+
+.about span{
+	color: #F36720;
+}
+
 /* Effect 12: circle */
 .cl-effect-12 a::before,
 .cl-effect-12 a::after {
@@ -226,6 +244,10 @@ body {
     background: transparent;
     border: 1px solid #fff;
 }
+.link .fa-home {
+    background: transparent;
+    border: 1px solid #fff;
+}
 .link ul li a i:hover {
     opacity: .7;
     border: 2px solid #fff;
@@ -251,6 +273,7 @@ footer p{
 @media screen and (max-width: 991px) {
     p {
         font-size: 14px;
+        width: 400px;
     }
     header{
         padding-left: 20px;
@@ -280,7 +303,7 @@ footer p{
     	height: 100%
     }
     footer{
-    	text-align: center;
+    	left: 60%;
     }
     .poem{
     	padding-left: 20%;
