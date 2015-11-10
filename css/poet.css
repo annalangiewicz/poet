@@ -92,6 +92,16 @@ body {
 	color: #F36720;
 }
 
+/*.find{
+	width: 300px;
+}*/
+
+.find img{
+	height: 50%;
+	width: 50%;
+	float: left;
+}
+
 /* Effect 12: circle */
 .cl-effect-12 a::before,
 .cl-effect-12 a::after {
@@ -310,6 +320,9 @@ footer p{
     }
     .col-md-6{
     	z-index: -2;
+    }
+    .find img{
+    	width: 200px;
     }
 
 }
