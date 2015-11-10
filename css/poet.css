@@ -220,6 +220,10 @@ body {
     border: 1px solid #fff;
     /*background:#dd4b39;*/
 }
+.link .fa-at {
+    background: transparent;
+    border: 1px solid #fff;
+}
 .link ul li a i:hover {
     opacity: .7;
     border: 2px solid #fff;
