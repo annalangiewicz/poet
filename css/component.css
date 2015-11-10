@@ -823,3 +823,26 @@ All this is done for any sub-level being entered.
 .demo-5 .dl-menuwrapper ul {
 	background: #643771;
 }
+
+@media screen and (max-width: 991px) {
+    p {
+        font-size: 14px;
+    }
+    header{
+        padding-left: 20px;
+    }
+    .dl-menuwrapper button{
+    	float: left;
+    	min-height: 20px;
+    }
+    .dl-submenu{
+    	z-index: 2;
+    }
+}
+
+.dl-menu{
+	z-index: 2000;
+}
+.dl-submenu{
+	z-index: 3000;
+}
