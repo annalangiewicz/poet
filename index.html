@@ -465,10 +465,22 @@
         <div class="row">
         <div class="read col-lg-12 text-center">
                 <div class="cl-effect-12">
-                    <a  href="#">Read</a>
+                    <a  id="read" href="#">Read</a>
                 </div>
             </div>
         </div>
+
+        <!-- Footer -->
+        <footer>
+            <div class="row">
+                <div class="col-lg-12">
+                    <p>Copyright &copy; Anna Langiewicz 2015</p>
+                </div>
+            </div>
+            <!-- /.row -->
+        </footer>
+
+        
     </div>
 
 
@@ -495,9 +507,11 @@
                     animationClasses : { classin : 'dl-animate-in-2', classout : 'dl-animate-out-2' }
                 });
             });
+            
+            $( '#read' ).click(function(){
+                console.log("log test");
+            });
         </script>
-
-        
 
 </body>
 
