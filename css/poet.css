@@ -239,5 +239,40 @@ footer{
 }
 
 footer p{
-	text-shadow: 0 1px 2px rgba(0, 0, 0, .6);
+	color: #fff;
+	text-shadow: 0 1px 2px #333;
+}
+
+/* Media */
+@media screen and (max-width: 1200px) {
+    p {
+        font-size: 14px;
+    }
+    header{
+        padding-left: 20px;
+    }
+}
+
+@media screen and (min-width: 1201px) and (max-width: 1350px) {
+    p {
+        font-size: 16px;
+    }
+    header{
+        padding-left: 70px;
+    }
+    hr{
+    	width: 500px;
+    }
+}
+
+@media screen and (min-width: 1351px) and (max-width: 1550px) {
+    p {
+        font-size: 18px;
+    }
+    header{
+        padding-left: 45px;
+    }
+    hr{
+    	width: 500px;
+    }
 }
